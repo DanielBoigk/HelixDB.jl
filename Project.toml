@@ -1,0 +1,21 @@
+name = "HelixDB"
+uuid = "ba5fb200-22c5-4828-94c2-5a8ebe105a6a"
+version = "1.0.0-DEV"
+authors = ["DanielBoigk <71269893+DanielBoigk@users.noreply.github.com> and contributors"]
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Serde = "db9b398d-9517-45f8-9a95-92af99003e0e"
+
+[compat]
+HTTP = "1.10.19"
+JSON = "0.21.4"
+Serde = "3.7.0"
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
