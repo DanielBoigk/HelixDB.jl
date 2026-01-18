@@ -1,5 +1,3 @@
-# Helix.jl - HTTP Client Library for Julia
-
 module HelixDB
 
 using HTTP
